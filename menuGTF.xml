@@ -68,7 +68,7 @@
 	}
 	#dropline table {
 		border-collapse:collapse; 
-		margin:-1px -10px 0 0; 
+		
 		padding:0; 
 		width:0; 
 		height:0; 
@@ -76,7 +76,7 @@
     text-align:center;   
 	}
 	#dropline li {
-		float:left; 
+		float:cennter; 
 		height:38px;
     text-align:center;   
 	}
@@ -92,7 +92,7 @@
     text-align:center;  
 		text-decoration:none; 
 		font-weight:bold;
-		padding:0px 19px 0px 10px;
+		
 	}
 	#dropline li ul li a {
 		color: rgb(102, 102, 102);
