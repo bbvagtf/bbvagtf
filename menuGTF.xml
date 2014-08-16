@@ -55,7 +55,7 @@
                 position:relative; 
                 font-size:12px; 
                 height:38px; 
-                background:url(https://bbvagtf.googlecode.com/svn/fondomenuhome38v2.png) no-repeat;
+                background:url(https://bbvagtf.googlecode.com/svn/fondomenuhome38v3.png) no-repeat;
         }
         #dropline, 
         #dropline ul {
