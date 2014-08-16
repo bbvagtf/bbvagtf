@@ -222,7 +222,7 @@
         {
                 // Construct the breadcrumb string
                 //var rootSite = prefs.getString("VarrootSite");
-                var rootSite = "Global-Trade-Finance";
+                var rootSite = "global-trade-finance";
                 var s ="";
                 var i,j,k = 0;
                 var base = "";
