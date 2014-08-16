@@ -53,8 +53,7 @@
 	}
 	#dropline {
 		position:relative; 
-		font-size:9px;
-      text-align:center;  
+		font-size:12px; 
 		height:38px; 
 		background:url(https://bbvagcs.googlecode.com/svn/trunk/img/fondomenuhome38.png) no-repeat;
 	}
@@ -64,21 +63,18 @@
 		margin:0; 
 		list-style:none; 
 		width:948px;
-    text-align:center;   
 	}
 	#dropline table {
 		border-collapse:collapse; 
-		
+		margin:-1px -10px 0 0; 
 		padding:0; 
 		width:0; 
 		height:0; 
-		font-size:9px;
-    text-align:center;   
+		font-size:12px;
 	}
 	#dropline li {
-		float:cennter; 
+		float:left; 
 		height:38px;
-    text-align:center;   
 	}
 	#dropline li a {
 		float:left; 
@@ -87,16 +83,14 @@
 		line-height:38px; 
 		padding:0 20px 0 10px; 
 		font-family:arial, sans-serif; 
-		font-size:9px; 
+		font-size:11px; 
 		color:#fff; 
-    text-align:center;  
 		text-decoration:none; 
 		font-weight:bold;
-		
+		padding:0px 19px 0px 10px;
 	}
 	#dropline li ul li a {
 		color: rgb(102, 102, 102);
-    text-align:center;   
 	}
 	#dropline li a.principal { 
 		color:#fff;
@@ -297,28 +291,28 @@
 			<li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/global-trade-finance/" target="_parent" onclick="mark"></a>
 			</li>
 
-			<li class="top"><a id="¿Qué es GTF?" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">¿Qué es GTF?</a>
+			<li class="top"><a id="¿Qué es GTF?" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">¿Qué es GTF?</a>
 			</li>
 
-			<li class="top"><a id="Market Intelligence" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Market Intelligence</a>
+			<li class="top"><a id="Market Intelligence" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Market Intelligence</a>
 			</li>
 
-			<li class="top"><a id="Commercial Support" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Commercial Support</a>
+			<li class="top"><a id="Commercial Support" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Commercial Support</a>
 			</li>
          
-			<li class="top"><a id="Comunidad de Prácticas" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/comunidad-de-practicas" target="_parent">Comunidad de Prácticas</a>
+			<li class="top"><a id="Comunidad de Prácticas" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/comunidad-de-practicas" target="_parent">Comunidad de Prácticas</a>
 			</li>
 
-			<li class="top"><a id="Plataforma" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Plataforma</a>
+			<li class="top"><a id="Plataforma" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Plataforma</a>
 			</li>
          
-                        <li class="top"><a id="Otros temas" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Otros temas</a>
+                        <li class="top"><a id="Otros temas" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Otros temas</a>
 			</li>
 
-			<li class="top"><a id="GTF Workspace" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">GTF Workspace</a>
+			<li class="top"><a id="GTF Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">GTF Workspace</a>
 			</li>
 
-			<li class="top"><a id="PM Team Workspace" class="principal" style="text-align:center" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">PM Team Workspace</a>
+			<li class="top"><a id="PM Team Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">PM Team Workspace</a>
 			</li>
 
 		</ul>
