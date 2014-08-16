@@ -85,6 +85,7 @@
 		font-family:arial, sans-serif; 
 		font-size:11px; 
 		color:#fff; 
+    text-align:center;  
 		text-decoration:none; 
 		font-weight:bold;
 		padding:0px 19px 0px 10px;
