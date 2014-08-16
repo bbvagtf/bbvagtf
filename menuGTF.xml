@@ -62,7 +62,7 @@
                 padding:0px; 
                 margin:0; 
                 list-style:none; 
-                width:948px;
+                width:1000px;
         }
         #dropline table {
                 border-collapse:collapse; 
