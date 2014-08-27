@@ -7,7 +7,7 @@
 
 <Content type="html"><![CDATA[
 <td style="width:149px;height:46px">
-<div style="display:inline;float:right;margin:5px 10px"><a href="javascript:history.back();" style="background-image:none;border-bottom-style:none"><img alt="history.back()" border="0" src="https://sites.google.com/a/bbva.com/global-trade-finance/boton_volver.png"></a><span style="border-collapse:separate;line-height:18px;font-size:x-large">&nbsp;&nbsp;</span></div>
+<div style="display:inline;float:right;margin:5px 10px"><a href="javascript:history.back();" style="background-image:none;border-bottom-style:none"><img alt="history.back()" border="0" src="https://sites.google.com/a/bbva.com/global-trade-finance/boton_volver.png"></a><span style="border-collapse:separate;line-height:18px;font-size:x-large">&nbsp;&#xA0;</span></div>
 
 </td>
 
