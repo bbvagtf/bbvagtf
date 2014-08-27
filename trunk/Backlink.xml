@@ -6,6 +6,9 @@
 </ModulePrefs>  
 
 <Content type="html"><![CDATA[
+<style>
+a:hover	{color: RED;}
+</style>
 <table>
 <tbody>
 <tr>
