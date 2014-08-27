@@ -6,17 +6,30 @@
 </ModulePrefs>  
 
 <Content type="html"><![CDATA[
-<style>
-a:hover	{color: RED;}
-</style>
-<table>
+<div></div>
+<table border="0" cellspacing="0" style="color:rgb(11,83,148);font-family:trebuchet ms,sans-serif;font-size:large;line-height:25px;border-collapse:collapse;border-color:rgb(255,255,255);border-width:0px">
 <tbody>
 <tr>
-<td style="width:147px;height:46px">
-<div style="display:inline;float:right;margin:5px 10px"><a href="javascript:history.back()" style="background-image:none;border-bottom-style:none"><img border="0" src="https://sites.google.com/a/bbva.com/global-trade-finance/boton_volver.png"></a><span  style="border: 5px solid #ffffff border-collapse:separate;line-height:18px;font-size:x-large">&nbsp;&nbsp;</span></div>
+<td style="width:42px;height:46px"><span style="border-collapse:separate;line-height:15px;font-size:x-large"><span style="line-height:25px;font-size:large"><span style="border-collapse:separate;line-height:15px;font-size:x-large">
+<div style="display:inline;margin:5px 10px 0px 0px;float:left"><a href="https://sites.google.com/a/bbva.com/global-trade-finance/galeria/icn_t-iconLib_A01-32px_k.png?attredirects=0" imageanchor="1"><img border="0" src="https://sites.google.com/a/bbva.com/global-trade-finance/galeria/icn_t-iconLib_A01-32px_k.png"></a></div>
+<br>
+</span></span></span>
+<div>
+<div></div>
+</div>
+</td>
+<td style="width:741px;height:46px"><span style="border-collapse:separate"><span style="line-height:18px"><span style="font-size:x-large">
+<div><br>
+</div>
+<div><b><font face="arial, sans-serif">Título: Plantilla para contenido de nivel 1</font></b><font color="#3d85c6">&nbsp;</font></div>
+</span></span></span></td>
+<td style="width:149px;height:46px">
+<div style="display:inline;float:right;margin:5px 10px"><a href="https://sites.google.com/a/bbva.com/global-trade-finance/home" style="background-image:none;border-bottom-style:none"><img border="0" src="https://sites.google.com/a/bbva.com/portal-gcs/boton_volver.png"></a><span style="border-collapse:separate;line-height:18px;font-size:x-large">&nbsp;&nbsp;</span></div>
 </td>
 </tr>
 </tbody>
 </table>
+<hr>
+
 ]]></Content>
 </Module>
