@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="menuGTF" >
+<ModulePrefs title="Back link" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>  
 
 <Content type="html"><![CDATA[
-<a href="javascript:history.back()">Volver a la página anterior</a>
+<td style="width:149px;height:46px">
+<div style="display:inline;float:right;margin:5px 10px"><a href="javascript:void(0);" style="background-image:none;border-bottom-style:none"><img alt="history.back()" border="0" src="https://sites.google.com/a/bbva.com/global-trade-finance/boton_volver.png"></a><span style="border-collapse:separate;line-height:18px;font-size:x-large">&nbsp;&nbsp;</span></div>
+
+</td>
 
 ]]></Content>
 </Module>
