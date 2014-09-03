@@ -81,13 +81,13 @@
                 display:block; 
                 height:37px; 
                 line-height:38px; 
-                padding:0 20px 0 0px; 
+                padding:0 20px 0 10px; 
                 font-family:arial, sans-serif; 
                 font-size:11px; 
                 color:#fff; 
                 text-decoration:none; 
                 font-weight:bold;
-                padding:0px 10px 0px 10px;
+                padding:0px 0px 0px 0px;
         }
         #dropline li ul li a {
                 color: rgb(102, 102, 102);
