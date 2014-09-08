@@ -53,7 +53,7 @@
         }
         #dropline {
                 position:relative; 
-                font-size:12px; 
+                font-size:11px; 
                 height:38px; 
                 background:url(https://bbvagtf.googlecode.com/svn/fondomenuhome38v3.png) no-repeat;
         }
@@ -70,7 +70,7 @@
                 padding:0; 
                 width:0; 
                 height:0; 
-                font-size:12px;
+                font-size:11px;
         }
         #dropline li {
                 float:left; 
