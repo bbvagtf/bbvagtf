@@ -93,7 +93,7 @@
         #dropline li a {
                 float:left; 
                 display:block; 
-                
+                 height:37px; 
                 line-height:38px; 
                 padding:0 20px 0 10px; 
                 font-family:arial, sans-serif; 
