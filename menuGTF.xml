@@ -76,6 +76,19 @@
                 float:left; 
                 height:38px;
         }
+         #dropline li a {
+                float:left; 
+                display:block; 
+                height:37px; 
+                line-height:38px; 
+                padding:0 20px 0 10px; 
+                font-family:arial, sans-serif; 
+                font-size:11px; 
+                color:#fff; 
+                text-decoration:none; 
+                font-weight:bold;
+                padding:0px 12px 0px 12px;
+        }
         @-moz-document url-prefix() {
         #dropline li a {
                 float:left; 
@@ -83,8 +96,8 @@
                 height:37px; 
                 line-height:38px; 
                 padding:0 20px 0 10px; 
-                
-                font-size:11px; 
+                font-family:arial, sans-serif; 
+                font-size:10px; 
                 color:#fff; 
                 text-decoration:none; 
                 font-weight:bold;
