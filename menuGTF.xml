@@ -82,7 +82,7 @@
                 height:37px; 
                 line-height:38px; 
                 padding:0 20px 0 10px; 
-                font-family:arial, sans-serif; 
+                font-family:sans-serif; 
                 font-size:11px; 
                 color:#fff; 
                 text-decoration:none; 
