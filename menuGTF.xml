@@ -77,6 +77,7 @@
                 height:38px;
         }
          #dropline li a {
+                -bracket-:hack(;
                 float:left; 
                 display:block; 
                 height:37px; 
@@ -88,6 +89,7 @@
                 text-decoration:none; 
                 font-weight:bold;
                 padding:0px 12px 0px 12px;
+                );
         }
         @-moz-document url-prefix() {
         #dropline li a {
