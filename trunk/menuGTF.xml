@@ -332,7 +332,7 @@
                         <li class="top"><a id="Commercial Support" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/commercial-support" target="_parent">Commercial Support</a>
                         </li>
          
-                        <li class="top"><a id="Comunidad de Prácticas" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/comunidad-de-practicas" target="_parent">Comunidad de Prácticas</a>
+                        <li class="top"><a id="Comunidad de Práctica" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/comunidad-de-practica" target="_parent">Comunidad de Prácticas</a>
                         </li>
 
                         <li class="top"><a id="Plataforma" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">Plataforma</a>
@@ -373,7 +373,7 @@
                 }
                 if (parametros.indexOf("Comunidad de Prácticas")!=-1)
                 {
-                        document.getElementById("Comunidad de Prácticas").style.backgroundColor = "#2586d7";
+                        document.getElementById("Comunidad de Práctica").style.backgroundColor = "#2586d7";
                 }
                 if (parametros.indexOf("Plataforma")!=-1)
                 {
