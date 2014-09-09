@@ -74,14 +74,14 @@
         }
         #dropline li {
                 float:left; 
-                height:38px;
+                height:37px;
         }
          #dropline li a {
                 
                 float:left; 
                 display:block; 
                 height:37px; 
-                line-height:38px; 
+                line-height:37px; 
                 padding:0 20px 0 10px; 
                 font-family:arial; 
                 font-size:11px; 
