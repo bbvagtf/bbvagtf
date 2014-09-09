@@ -320,7 +320,7 @@
         
         <div id="menu">
                 <ul id="dropline">
-                        <li class="home"><a style="color:#fff;width:8px;margin-left:0px;" href="https://sites.google.com/a/bbva.com/global-trade-finance/" target="_parent" onclick="mark"></a>
+                        <li class="home"><a style="color:#fff;width:8px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/global-trade-finance/" target="_parent" onclick="mark"></a>
                         </li>
 
                         <li class="top"><a id="¿Qué es GTF?" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/construccion" target="_parent">¿Qué es GTF?</a>
