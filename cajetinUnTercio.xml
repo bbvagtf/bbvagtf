@@ -28,7 +28,7 @@
 		<style>		
 			#content_div img {
 				padding: 0 15px 10px 0;
-        text-align: justify;
+        text-align: right;
 			}
 			#content_div {
 				background-image: url('https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png');
