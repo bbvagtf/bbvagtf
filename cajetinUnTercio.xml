@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<ModulePrefs title="Cajetin personalizado un tercio portal Global Trade Finance"
+		title_url=""
+		author=""
+		author_email=""
+		description="GadGet para Google Sites que muestra textos en una caja con formato."
+		screenshot=""
+		thumbnail=""  
+		scrolling="false"
+		author_location="Madrid, Spain"
+		scaling="false">
+		<Require feature="dynamic-height"/>
+		<Require feature="setprefs"/>
+	</ModulePrefs>  
+	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Customer Solutions"/>
+	<UserPref name="VarImagenDestacada" display_name="Imagen destacada:" default_value=""/>
+	<UserPref name="VarBoton1Texto" display_name="Texto boton 1:" default_value=""/>
+	<UserPref name="VarBoton1URL" display_name="URL boton 1:" default_value=""/>
+	<UserPref name="VarBoton2Texto" display_name="Texto boton 2:" default_value=""/>
+	<UserPref name="VarBoton2URL" display_name="URL boton 2:" default_value=""/>
+	<UserPref name="VarBoton3Texto" display_name="Texto boton 3:" default_value=""/>
+	<UserPref name="VarBoton3URL" display_name="URL boton 3:" default_value=""/>
+	<UserPref name="VarComent" display_name="Comentario (admite bbcode)" default_value="Texto adicional"/>  	
+	<UserPref name="VarColorLetra" display_name="Color texto por defecto" default_value="#666"/>
+	<UserPref name="VarSize" display_name="TamaÃ±o de texto por defecto" default_value="12"/>
+	<Content type="html" view="home"><![CDATA[
+		<style>		
+			#content_div img {
+				padding: 0 15px 10px 0;
+			}
+			#content_div {
+				background-image: url('https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png');
+			}
+			#content_div a img {
+				padding: 0;
+			}
+			.sites-adminfooter {
+				display:none;
+			}
+			h2.titulobloque {
+				font-size: 16px;
+				margin: 0 0 7px 0;
+				color: #3F78B2;
+			}			
+			a.enlaceboton {
+				background-image: url("https://bbvagcs.googlecode.com/svn/trunk/fondobotonuntercio.png");
+				background-repeat: no-repeat;
+				color: #FFFFFF;
+				display: block;
+				float: right;
+				font-size: 12px;
+				font-weight: bold;
+				height: 31px;
+				margin: 0px;
+				padding-top: 10px;
+				text-align: center;
+				text-decoration: none;
+				width: 165px;
+			}	
+			a:hover.enlaceboton, 
+			a:active.enlaceboton,
+			a:visited.enlaceboton {
+				color: #FFFFFF;
+			}
+			.margintop {
+				margin-top: 7px !important;
+			}
+			
+		</style>
+	
+		<div id="content_div"  style="height:150px; background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
+
+		<script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js"></script>
+
+		<script type="text/javascript">
+			var html="";
+			// Obtener userprefs
+			var prefs = new gadgets.Prefs();
+			var VarComent=prefs.getString("VarComent");
+			var VarBorde="0";
+			var VarAlign="left";
+			var VarColorFondo="transparent";
+			var VarColorLetra=prefs.getString("VarColorLetra");
+			var VarColorBorde="#fff";
+			var VarSize=prefs.getString("VarSize");
+			
+			var VarImagenDestacada=prefs.getString("VarImagenDestacada");
+			var VarTituloBloque=prefs.getString("VarTituloBloque");
+			var VarBoton1Texto=prefs.getString("VarBoton1Texto");
+			var VarBoton1URL=prefs.getString("VarBoton1URL");
+			var VarBoton2Texto=prefs.getString("VarBoton2Texto");
+			var VarBoton2URL=prefs.getString("VarBoton2URL");
+			var VarBoton3Texto=prefs.getString("VarBoton3Texto");
+			var VarBoton3URL=prefs.getString("VarBoton3URL");
+			
+			function insertarBoton()
+			{
+				var html="";
+				if ((VarBoton1Texto!="")&&(VarBoton1URL!=""))
+				{
+					html+='<a href=\"' + VarBoton1URL + '\" title=\"' + VarBoton1Texto + '\" target=\"_parent\" class=\"enlaceboton margintop\">' + VarBoton1Texto + '</a>';
+				}
+				if ((VarBoton2Texto!="")&&(VarBoton2URL!=""))
+				{
+					html+='<a href=\"' + VarBoton2URL + '\" title=\"' + VarBoton2Texto + '\" target=\"_parent\" class=\"enlaceboton\">' + VarBoton2Texto + '</a>';
+				}
+				if ((VarBoton3Texto!="")&&(VarBoton3URL!=""))
+				{
+					html+='<a href=\"' + VarBoton3URL + '\" title=\"' + VarBoton3Texto + '\" target=\"_parent\" class=\"enlaceboton\">' + VarBoton3Texto + '</a>';
+				}
+				return html;
+			}
+			
+			function insertarImagenDestacada()
+			{
+				var html="";
+				if (VarImagenDestacada!="")
+				{
+					html+='<img style=\"float: left;\" src=\"' + VarImagenDestacada + '\">';	
+				}
+				
+				return html;
+			}
+			
+			document.body.style.backgroundColor="#fff";			
+			html+='<table style=\"border-style: none;\" width=\"100%\">';
+			html+='<tr><td>';  
+			html+='<div style=\"padding: 10px; font-size:' + VarSize + '; color:' + VarColorLetra + ';\">';
+			html+=insertarImagenDestacada();		
+			html+='<h2 class=\"titulobloque\">' + VarTituloBloque + '</h2>';
+			html+=bbcode2html(VarComent);
+			html+=insertarBoton();			
+			html+='</div>';
+			html+='</td></tr></table>';
+			document.getElementById("content_div").innerHTML = html;
+			gadgets.window.adjustHeight();
+		</script>
+	]]>  
+	</Content>  
+	<Content type="html" view="configuration"  preferred_height="480">
+	<![CDATA[
+		<script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/editorbbcode.js"></script>
+		<style>
+			table td {
+				color: #000;
+				font-size: 11px;
+				font-weight: bold;
+			}
+			table td input,
+			textarea {
+				color: #000;
+				font-size: 11px;				
+			}			
+			input#VarTituloBloque {
+				width: 300px;
+			}
+			input#VarImagenDestacada {
+				width: 575px;
+			}
+			.btnTexto {
+				width: 200px;
+			}
+			.btnURL {
+				width: 345px;
+			}
+			.destacado {
+				color:red;
+				font-size:20px;
+				font-weight:bold;
+			}
+			.textodefecto {
+				width: 40px;
+			}
+			.textocolor {
+				width: 57px;
+			}
+		</style>
+		<table width="100%" border="0" id="tablaconfig">			
+			<tr>		
+				<td>
+					T&iacute;tulo: <input type="text" id="VarTituloBloque" value="__UP_VarTituloBloque__" onchange="registra('VarTituloBloque')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Im&aacutegen destacada (URL): <input type="text" id="VarImagenDestacada" value="__UP_VarImagenDestacada__" onchange="registra('VarImagenDestacada')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Bot&oacute;n 1 - Texto: <input type="text" id="VarBoton1Texto" class="btnTexto" value="__UP_VarBoton1Texto__" onchange="registra('VarBoton1Texto')">		
+					Bot&oacute;n 1 - URL: <input type="text" id="VarBoton1URL" class="btnURL" value="__UP_VarBoton1URL__" onchange="registra('VarBoton1URL')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Bot&oacute;n 2 - Texto: <input type="text" id="VarBoton2Texto" class="btnTexto" value="__UP_VarBoton2Texto__" onchange="registra('VarBoton2Texto')">		
+					Bot&oacute;n 2 - URL: <input type="text" id="VarBoton2URL" class="btnURL" value="__UP_VarBoton2URL__" onchange="registra('VarBoton2URL')">					
+				</td>
+			</tr>
+			<tr>		
+				<td>
+					Bot&oacute;n 3 - Texto: <input type="text" id="VarBoton3Texto" class="btnTexto" value="__UP_VarBoton3Texto__" onchange="registra('VarBoton3Texto')">		
+					Bot&oacute;n 3 - URL: <input type="text" id="VarBoton3URL" class="btnURL" value="__UP_VarBoton3URL__" onchange="registra('VarBoton3URL')">					
+				</td>
+			</tr>
+		</table>
+		<table width="100%" height="170px;" border="0" id="tablaconfig1">			
+			<tr>		
+				<td>
+					Texto (admite bbcode):<br/>
+					<script language="Javascript">
+					<!--
+						editor_para("VarComent");
+					//-->
+					</script>
+					<textarea id="VarComent" style="height: 100px; width: 100%" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="0" id="tablaconfig2">			
+			<tr>
+				<td>TamaÃ±o del texto por defecto: <input type="text" class="textodefecto" id="VarSize" value="__UP_VarSize__" onchange="registra('VarSize')"></td>   
+			</tr>
+			<tr>
+				<td>Color de texto por defecto: <input type="text" class="textocolor" id="VarColorLetra" value="__UP_VarColorLetra__" onchange="registra('VarColorLetra')"></td>		     
+			</tr>
+			<tr>
+				<td class="destacado"><br/><br/>No modificar la altura y el ancho del gadget</td>
+			</tr>
+		</table>		
+		<script type="text/javascript">			
+			// Get userprefs
+			var prefs = new gadgets.Prefs();			
+			function registra(variable)
+			{
+				prefs.set(variable,document.getElementById(variable).value);
+			}	
+			gadgets.window.adjustHeight();
+		</script>   
+	]]>
+	</Content>
+</Module>
