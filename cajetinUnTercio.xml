@@ -13,7 +13,7 @@
 		<Require feature="dynamic-height"/>
 		<Require feature="setprefs"/>
 	</ModulePrefs>  
-	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Customer Solutions"/>
+	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Trade Finance"/>
 	<UserPref name="VarImagenDestacada" display_name="Imagen destacada:" default_value=""/>
 	<UserPref name="VarBoton1Texto" display_name="Texto boton 1:" default_value=""/>
 	<UserPref name="VarBoton1URL" display_name="URL boton 1:" default_value=""/>
