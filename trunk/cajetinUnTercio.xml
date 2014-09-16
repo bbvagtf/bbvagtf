@@ -219,7 +219,7 @@
 						editor_para("VarComent");
 					//-->
 					</script>
-					<textarea id="VarComent" style="height: 100px; width: 100%" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
+					<textarea id="VarComent" style="height: 100px; width: 100% text-align:justify" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
 				</td>
 			</tr>
 		</table>
