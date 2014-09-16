@@ -164,6 +164,7 @@
 			}
 			.btnTexto {
 				width: 200px;
+            text-align: justify;
 			}
 			.btnURL {
 				width: 345px;
