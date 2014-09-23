@@ -83,7 +83,7 @@
 			var prefs = new gadgets.Prefs();
 			var VarComent=prefs.getString("VarComent");
 			var VarBorde="0";
-			var VarAlign="left";
+			var VarAlign="justify";
 			var VarColorFondo="transparent";
 			var VarColorLetra=prefs.getString("VarColorLetra");
 			var VarColorBorde="#fff";
