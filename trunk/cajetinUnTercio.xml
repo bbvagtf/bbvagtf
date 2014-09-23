@@ -163,7 +163,7 @@
 				width: 575px;
 			}
 			.btnTexto {
-				width: 10px;
+				width: 200px;
             text-align: justify;
 			}
 			.btnURL {
@@ -220,7 +220,7 @@
 						editor_para("VarComent");
 					//-->
 					</script>
-					<textarea id="VarComent" style="height: 100px; width: 100% text-align:justify" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
+					<textarea id="VarComent" style="height: 20px; width: 100% text-align:justify" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
 				</td>
 			</tr>
 		</table>
