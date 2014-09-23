@@ -220,11 +220,11 @@
 						editor_para("VarComent");
 					//-->
 					</script>
-					<textarea id="VarComent" style="height: 20px; width: 100% text-align:justify" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
+					<textarea id="VarComent" style="height: 100px; width: 100% text-align:justify" onchange="registra('VarComent')" >__UP_VarComent__</textarea>
 				</td>
 			</tr>
 		</table>
-		<table width="100%" border="0" id="tablaconfig2">			
+		<table width="50%" border="0" id="tablaconfig2">			
 			<tr>
 				<td>TamaÃ±o del texto por defecto: <input type="text" class="textodefecto" id="VarSize" value="__UP_VarSize__" onchange="registra('VarSize')"></td>   
 			</tr>
