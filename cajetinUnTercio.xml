@@ -32,6 +32,7 @@
 			}
 			#content_div {
 				background-image: url('https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png');
+             text-align: justify;
 			}
 			#content_div a img {
 				padding: 0;
@@ -57,6 +58,7 @@
 				margin: 0px;
 				padding-top: 10px;
 				text-align: center;
+            vertical-align: middle;
 				text-decoration: none;
 				width: 165px;
 			}	
