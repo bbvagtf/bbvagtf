@@ -55,7 +55,7 @@
 				font-size: 12px;
 				font-weight: bold;
 				height: 31px;
-				margin-top: 50px;
+				margin: 0px;
 				padding-top: 10px;
 				text-align: center;
             vertical-align: middle;
@@ -68,7 +68,7 @@
 				color: #FFFFFF;
 			}
 			.margintop {
-				margin-top: 7px !important;
+				margin-top: 70px !important;
 			}
 			
 		</style>
