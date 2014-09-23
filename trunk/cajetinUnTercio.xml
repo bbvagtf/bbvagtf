@@ -68,12 +68,12 @@
 				color: #FFFFFF;
 			}
 			.margintop {
-				margin-top: 70px !important;
+				margin-top: 7px !important;
 			}
 			
 		</style>
 	
-		<div id="content_div"  style="height:150px; text-align:justify;background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
+		<div id="content_div"  style="height:150px; width: 1000px;text-align:justify;background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
 
 		<script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js"></script>
 
