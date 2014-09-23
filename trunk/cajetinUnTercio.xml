@@ -35,7 +35,7 @@
              text-align: justify;
 			}
 			#content_div a img {
-				padding: 100px;
+				padding: 0;
         text-align: justify;    
 			}
 			.sites-adminfooter {
@@ -55,7 +55,7 @@
 				font-size: 12px;
 				font-weight: bold;
 				height: 31px;
-				margin: 0px;
+				margin-top: 50px;
 				padding-top: 10px;
 				text-align: center;
             vertical-align: middle;
