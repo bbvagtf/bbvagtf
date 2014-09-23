@@ -55,8 +55,7 @@
 				font-size: 12px;
 				font-weight: bold;
 				height: 31px;
-				margin: 0px;
-				padding-top: 10px;
+				
 				text-align: center;
             vertical-align: middle;
 				text-decoration: none;
@@ -73,7 +72,7 @@
 			
 		</style>
 	
-		<div id="content_div"  style="height:150px; width: 10px;text-align:justify;background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
+		<div id="content_div"  style="height:150px; text-align:justify;background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
 
 		<script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js"></script>
 
