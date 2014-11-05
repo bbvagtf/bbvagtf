@@ -130,7 +130,7 @@
 			document.body.style.backgroundColor="#fff";			
 			html+='<table style=\"border-style: none;\" width=\"100%\">';
 			html+='<tr><td>';  
-			html+='<div style=\"padding: 10px; font-size:' + VarSize + '; color:' + VarColorLetra + ';\">';
+			html+='<div style=\"padding: 10px; font-size:' + VarSize + '; color:' + VarColorLetra + ';align:' + VarAlign + ';\">';
 			html+=insertarImagenDestacada();		
 			html+='<h2 class=\"titulobloque\">' + VarTituloBloque + '</h2>';
 			html+=bbcode2html(VarComent);
