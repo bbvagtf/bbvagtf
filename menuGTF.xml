@@ -302,7 +302,7 @@
                                         }
                                         if (j<parametros.length-1)
                                         {
-                                                if(parametros[j] =! "?pli=1")
+                                                if(parametros[j] != "?pli=1")
                                                 {
                                                 
                                                    s = s + "<a class=\'linkBreadCrumb\' href=\'"+ base  + rootSite + barra  + parametros[j] + barra + "\' target=\'_parent\' title=\'" + litEnlace + "\'> >&nbsp;" + litEnlace + "</a>";
