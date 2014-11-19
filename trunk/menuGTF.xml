@@ -311,7 +311,10 @@
                                         }
                                         else
                                         {   
+                                             if(parametros[j] != "?pli=1")
+                                             {
                                                 s = s + " ><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
+                                             }   
                                         }
                                 }
                         }
