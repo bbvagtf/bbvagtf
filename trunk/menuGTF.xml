@@ -308,12 +308,20 @@
                                                    s = s + "<a class=\'linkBreadCrumb\' href=\'"+ base  + rootSite + barra  + parametros[j] + barra + "\' target=\'_parent\' title=\'" + litEnlace + "\'> >&nbsp;" + litEnlace + "</a>";
                                                    rootSite = rootSite + "/" + parametros[j];
                                                 }
+                                                else
+                                                {
+                                                   s = s + " >"
+                                                }
                                         }
                                         else
                                         {   
                                              if(parametros[j] != "?pli=1")
                                              {
                                                 s = s + " ><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
+                                             }
+                                             else
+                                             {
+                                                s = s + " >"
                                              }   
                                         }
                                 }
