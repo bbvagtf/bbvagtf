@@ -296,8 +296,13 @@
                                                         var litEnlace = "Contactos";
                                                 }
                                                 else
-                                                {                                                               
+                                                {       
+                                                        if aux = "?pli=1"{ 
+                                                           var litEnlace = " "
+                                                        }
+                                                        else{
                                                         var litEnlace = aux;
+                                                        }
                                                 }
                                         }
                                         if (j<parametros.length-1)
