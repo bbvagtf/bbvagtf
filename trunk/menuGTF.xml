@@ -297,11 +297,12 @@
                                                 }
                                                 else
                                                 {       
-                                                        if aux = "?pli=1"{ 
+                                                        if (aux = "?pli=1")
+                                                        { 
                                                            var litEnlace = " "
                                                         }
                                                         else{
-                                                        var litEnlace = aux;
+                                                           var litEnlace = aux;
                                                         }
                                                 }
                                         }
