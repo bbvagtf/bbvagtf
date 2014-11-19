@@ -301,7 +301,8 @@
                                                         { 
                                                            var litEnlace = " "
                                                         }
-                                                        else{
+                                                        else
+                                                        {
                                                            var litEnlace = aux;
                                                         }
                                                 }
