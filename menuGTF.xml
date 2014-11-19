@@ -283,7 +283,7 @@
                                         }
                                         else
                                         {                                                       
-                                                if (aux.indexOf("?pli=1")>-1)
+                                                if (aux.indexOf("ficha")>-1)
                                                 {                                                               
                                                         var litEnlace = "Ficha";
                                                 }
