@@ -129,7 +129,7 @@
         }
         #dropline li a.down { 
                 color:#fff; 
-                background:url(https://bbvagcs.googlecode.com/svn/trunk/img/down.gif) no-repeat right center;
+                background:url(https://cloud.githubusercontent.com/assets/14868803/10218616/7783dbce-6838-11e5-801e-c0a01a120394.gif) no-repeat right center;
         }
         #dropline li ul li a.down {
                 font-size:14px; 
@@ -140,7 +140,7 @@
                 top:38px; 
                 left:-9999px; 
                 z-index:10; 
-                background:url(https://bbvagcs.googlecode.com/svn/trunk/img/fade.png);
+                background:url(https://cloud.githubusercontent.com/assets/14868803/10218620/7e61395a-6838-11e5-88c0-f7de5923033c.png);
         }
         #dropline li ul.floatRight li {
                 float:right;
