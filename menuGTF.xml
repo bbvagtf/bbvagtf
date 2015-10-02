@@ -178,7 +178,7 @@
         }               
 </style>
 
-<script src="https://raw.githubusercontent.com/jquery/jquery/master/src/jquery.js"></script>
+<script src= https://bbvagcs.googlecode.com/svn/trunk/js/jquery-1.js type="text/javascript"></script>
 
 <script type="text/javascript">
 
