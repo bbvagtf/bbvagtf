@@ -76,6 +76,7 @@
                 height:38px;
         }
         
+       
          #dropline li a {
            
                 float:left; 
@@ -91,7 +92,24 @@
                 padding:0px 12.5px 0px 12.5px;
                   
          }
-        
+         if (navigator.userAgent.toLowerCase().match('chrome') && document.getElementById('bodyContainer'))document.getElementById('bodyContainer').className = document.getElementById('bodyContainer').className + " chrome"{
+    	#dropline li a {
+           
+                float:left; 
+                display:block; 
+                height:38px; 
+                line-height:38px; 
+                padding:0 20px 0 10px; 
+                font-family:arial; 
+                font-size:11px; 
+                color:#fff; 
+                text-decoration:none; 
+                font-weight:bold;
+                padding:0px 12.5px 0px 12.5px;
+                  
+         }
+    	}
+    	
         @-moz-document url-prefix() {
         #dropline li a {
                 float:left; 
