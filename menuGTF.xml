@@ -34,7 +34,6 @@
 ]]>
 </Content>
 -->
-<script src= https://bbvagcs.googlecode.com/svn/trunk/js/jquery-1.js type="text/javascript"></script>
 <Content type="html"><![CDATA[
 <style type="text/css">
         /*
@@ -198,7 +197,7 @@
         }               
 </style>
 
-
+<script src= https://bbvagcs.googlecode.com/svn/trunk/js/jquery-1.js type="text/javascript"></script>
 
 <script type="text/javascript">
 
