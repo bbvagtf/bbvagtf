@@ -75,7 +75,7 @@
                 float:left; 
                 height:38px;
         }
-        $(document).ready(function(){
+        
          #dropline li a {
            if ( $.browser.webkit || $.browser.safari )
                 float:left; 
@@ -91,7 +91,7 @@
                 padding:0px 12.5px 0px 12.5px;
            }        
          }
-        }
+        
         @-moz-document url-prefix() {
         #dropline li a {
                 float:left; 
