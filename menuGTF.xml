@@ -432,7 +432,9 @@
 
 <!--Fin of the Breadcrumbs-->
 </div> 
-<body onunload="">
+<script>
+    document.location.reload();
+</script>
 <!-- end of content -->
 ]]></Content>
 </Module>
