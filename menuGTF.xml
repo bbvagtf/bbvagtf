@@ -432,6 +432,7 @@
 
 <!--Fin of the Breadcrumbs-->
 </div> 
+<body onunload="">
 <!-- end of content -->
 ]]></Content>
 </Module>
