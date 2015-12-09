@@ -35,9 +35,7 @@
 </Content>
 -->
 <Content type="html"><![CDATA[
-<script>
-    document.location.reload();
-</script>
+
 <style type="text/css">
         /*
         This copyright notice must be kept untouched in the stylesheet at all times.
