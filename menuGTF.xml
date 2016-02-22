@@ -35,7 +35,7 @@
 </Content>
 -->
 <Content type="html"><![CDATA[
-<script src= "https://raw.githubusercontent.com/paulirish/jQuery-miniplugins/master/data%20method/.svn/text-base/jquery-1.2.6.js.svn-base" type="text/javascript"></script>
+<script src= "https://raw.githubusercontent.com/bbvagtf/bbvagtf/master/jquery.js" type="text/javascript"></script>
 <script>
 jQuery(document).ready(function($) {
 
