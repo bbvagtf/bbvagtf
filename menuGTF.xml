@@ -221,7 +221,7 @@ jQuery(document).ready(function($) {
         }               
 </style>
 
-<script src="https://raw.githubusercontent.com/bbvagtf/bbvagtf/master/jquery-1.js" type="text/javascript"></script>
+<script src="https://github.com/bbvagtf/bbvagtf/blob/master/jquery.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 
