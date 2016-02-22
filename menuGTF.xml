@@ -38,7 +38,11 @@
 
 <script>
 jQuery(document).ready(function($) {
-
+  
+  var ActualLink = gadgets.util.getUrlParameters()["parent"]
+  if (ActualLink = 'https://sites.google.com/a/bbva.com/global-trade-finance/') {
+     location.reload();
+  }
   if (window.history && window.history.pushState) {
 
     $(window).on('popstate', function() {
