@@ -36,14 +36,14 @@
 -->
 <Content type="html"><![CDATA[
 
-<script>
+<script type="text/javascript">
 jQuery(document).ready(function($) {
-  <script language=JavaScript>
+  
   var ActualLink = gadgets.util.getUrlParameters()["parent"];
   if (ActualLink = 'https://sites.google.com/a/bbva.com/global-trade-finance/') {
      location.href=location.href;
   }
-  </script>
+  
   if (window.history && window.history.pushState) {
 
     $(window).on('popstate', function() {
