@@ -35,7 +35,9 @@
 </Content>
 -->
 <Content type="html"><![CDATA[
-<script src= "https://raw.githubusercontent.com/bbvagtf/bbvagtf/master/jquery.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="jquery.rcrumbs.css">
+<script src="jquery.js"></script>
+<script src="jquery.rcrumbs.js"></script>
 <script>
 jQuery(document).ready(function($) {
 
