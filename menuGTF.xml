@@ -40,7 +40,7 @@
 
   
   var ActualLink = gadgets.util.getUrlParameters()["parent"];
-  alert (ActualLink)
+  
   if (ActualLink = 'https://sites.google.com/a/bbva.com/global-trade-finance/-gtf') {
      history.go(-1);   
   }
