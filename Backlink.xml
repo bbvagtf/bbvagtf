@@ -21,9 +21,10 @@ document.onmouseleave = function() {
 
 window.onhashchange = function() {
     if (window.innerDocClick) {
+        alert("aux 1.1");
         //Your own in-page mechanism triggered the hash change
     } else {
-    alert("aux");
+    alert("aux 1.2");
         window.location.reload(true);
     }
 }
