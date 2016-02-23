@@ -1,42 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Back link" >
+        <Require feature="dynamic-height"/>   
+        <Require feature="setprefs" />  
+</ModulePrefs>  
 
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Actualizar una vez al entrar</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<script language="JavaScript">
-//Actualizar una vez al cargar página
-//script por tunait!
-//ver condiciones de uso en http://javascript.tunait.com/
-window.onunload = sale
-var valor;
-if(document.cookie){
-	galleta = unescape(document.cookie)
-	galleta = galleta.split(';')
-	for(m=0; m<galleta.length; m++){
-		if(galleta[m].split('=')[0] == "recarga"){
-		valor = galleta[m].split('=')[1]
-		break;
-		}
-	}
-if(valor == "sip"){
-	document.cookie = "recarga=nop"; 
-	window.onunload = function(){}
-	document.location.reload()
-	}
-else{
-window.onunload=sale
-	}
-}
-
-function sale(){
-document.cookie ="recarga=sip"
-}
-</script>
-</head>
-
-<body>
-</body>
-</html>
-
+<Content type="html"><![CDATA[
+<table>
+<tbody>
+<tr>
+<td style="width:147px;height:46px">
+<div style="display:inline;float:right;"><a href="javascript:history.back()" style="background-image:none;border-bottom-style:none"><img border="0" src="https://sites.google.com/a/bbva.com/global-trade-finance/boton_volver.png"></a><spanborder-collapse:separate;line-height:18px;font-size:x-large">&nbsp;&nbsp;</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+]]></Content>
+</Module>
