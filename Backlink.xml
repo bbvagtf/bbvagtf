@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<meta http-equiv="Cache-Control" content="no-cache">
 <Module>
 <ModulePrefs title="Back link" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>  
-<meta http-equiv="Cache-Control" content="no-cache">
 <Content type="html"><![CDATA[
 <table>
 <tbody>
