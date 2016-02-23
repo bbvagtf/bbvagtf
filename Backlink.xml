@@ -4,9 +4,6 @@
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>
-<head>
-<meta http-equiv="Cache-Control" content="no-cache">    
-</head>
 <Content type="html"><![CDATA[
 <table>
 <tbody>
