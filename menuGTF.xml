@@ -37,18 +37,9 @@
 <Content type="html"><![CDATA[
 
 <script type="text/javascript">
-
-  
   var ActualLink = gadgets.util.getUrlParameters()["parent"];
-  
   history.go(0);
   location.reload(true);
-  
-  
-  
- 
-
-
 </script>
 <style type="text/css">
         /*
