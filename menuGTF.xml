@@ -40,8 +40,8 @@
 
   
   var ActualLink = gadgets.util.getUrlParameters()["parent"];
-  var PreviousLink = history.go(-1); 
-  alert(history.go(-2))
+  var PreviousLink = history(-1); 
+  alert(history(-2))
   
   if (ActualLink = "https://sites.google.com/a/bbva.com/global-trade-finance/-gtf") {
      history.go(-1);   
