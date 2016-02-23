@@ -3,9 +3,11 @@
 <ModulePrefs title="Back link" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
-</ModulePrefs>  
+</ModulePrefs>
+<head>
+<meta http-equiv="Cache-Control" content="no-cache">    
+</head>
 <Content type="html"><![CDATA[
-<meta http-equiv="Cache-Control" content="no-cache">
 <table>
 <tbody>
 <tr>
