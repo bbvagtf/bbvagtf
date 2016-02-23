@@ -37,7 +37,7 @@
 <Content type="html"><![CDATA[
 
 <script type="text/javascript">
- alert(window.location.href(-1));
+ alert(window.history.previous.href);
 </script>
 <style type="text/css">
         /*
