@@ -3,7 +3,8 @@
 <ModulePrefs title="menuGTF" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
-</ModulePrefs>  
+</ModulePrefs> 
+<input id="reloadValue" type="hidden" name="reloadValue" value="" />
 <!--<UserPref name="VarrootSite" display_name="Root del Site" required="true" default_value="home"/>-->
 <!--
 <Content type="html" view="configuration" preferred_height="80">
@@ -37,7 +38,18 @@
 <Content type="html"><![CDATA[
 
 <script type="text/javascript">
- alert(window.history.previous);
+    jQuery(document).ready(function(){
+        var d = new Date();
+        d = d.getTime();
+        if (jQuery('#reloadValue').val().length == 0){
+            jQuery('#reloadValue').val(d);
+            jQuery('body').show();
+        }
+        else{
+            jQuery('#reloadValue').val('');
+            location.reload();
+        }
+    });
 </script>
 <style type="text/css">
         /*
