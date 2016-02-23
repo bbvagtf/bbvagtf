@@ -37,9 +37,15 @@
 <Content type="html"><![CDATA[
 
 <script type="text/javascript">
-  var ActualLink = gadgets.util.getUrlParameters()["parent"];
-  history.go(0);
+ var x="1";
+ var isBack;
+ function handleBackButton(){
+ isBack = (x != document._mine._a1.value);
+ document._mine._a1.value=2;
+ document._mine._a1.defaultValue=2;
+ if(isBack)
   location.reload(true);
+}
 </script>
 <style type="text/css">
         /*
