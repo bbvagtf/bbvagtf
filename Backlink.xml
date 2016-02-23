@@ -13,7 +13,7 @@
         var d = new Date();
         d = d.getTime();
         var aux = jQuery('#reloadValue').val();
-        if (aux.val() == undefined || aux.val().length == 0){
+        if (aux == undefined || aux.length == 0){
             alert("aux 1.1");
             jQuery('#reloadValue').val(d);
             jQuery('body').show();
