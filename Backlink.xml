@@ -23,6 +23,7 @@ window.onhashchange = function() {
     if (window.innerDocClick) {
         //Your own in-page mechanism triggered the hash change
     } else {
+    alert("aux");
         window.location.reload(true);
     }
 }
