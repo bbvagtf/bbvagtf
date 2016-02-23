@@ -9,25 +9,22 @@
 <script src="https://bbvagcs.googlecode.com/svn/trunk/js/jquery-1.js" type="text/javascript"></script>
 <script src="js/jquery-ui.js"></script>
 <script type="text/javascript">
-     document.onmouseover = function() {
-    //User's mouse is inside the page.
-    window.innerDocClick = true;
-}
-
-document.onmouseleave = function() {
-    //User's mouse has left the page.
-    window.innerDocClick = false;
-}
-
-window.onhashchange = function() {
-    if (window.innerDocClick) {
-        alert("aux 1.1");
-        //Your own in-page mechanism triggered the hash change
-    } else {
-    alert("aux 1.2");
-        window.location.reload(true);
-    }
-}
+    history.navigationMode = 'compatible';
+    jQuery(document).ready(function($){
+        var d = new Date();
+        d = d.getTime();
+        var aux = jQuery('#reloadValue').val();
+        if (aux == undefined || aux.length == 0){
+            alert("aux 1.1");
+            jQuery('#reloadValue').val(d);
+            jQuery('body').show();
+        }
+        else{
+            alert("aux 1.2");
+            jQuery('#reloadValue').val('');
+            window.location.reload(true);
+        }
+    });
 </script>
 <table>
 <tbody>
