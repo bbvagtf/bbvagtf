@@ -4,7 +4,7 @@
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>  
-<input id="reloadValue" type="hidden" name="reloadValue" value="" />
+
 <Content type="html"><![CDATA[
 <script src="https://bbvagcs.googlecode.com/svn/trunk/js/jquery-1.js" type="text/javascript"></script>
 <script src="js/jquery-ui.js"></script>
@@ -37,3 +37,4 @@
 </table>
 ]]></Content>
 </Module>
+<input id="reloadValue" type="hidden" name="reloadValue" value="" />
