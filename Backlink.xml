@@ -4,8 +4,22 @@
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>  
-
+<input id="reloadValue" type="hidden" name="reloadValue" value="" />
 <Content type="html"><![CDATA[
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        var d = new Date();
+        d = d.getTime();
+        if (jQuery('#reloadValue').val().length == 0){
+            jQuery('#reloadValue').val(d);
+            jQuery('body').show();
+        }
+        else{
+            jQuery('#reloadValue').val('');
+            location.reload();
+        }
+    });
+</script>
 <table>
 <tbody>
 <tr>
