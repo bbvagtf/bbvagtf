@@ -4,6 +4,7 @@
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs> 
+<meta http-equiv="Cache-Control" content="no-cache">
 <input id="reloadValue" type="hidden" name="reloadValue" value="" />
 <!--<UserPref name="VarrootSite" display_name="Root del Site" required="true" default_value="home"/>-->
 <!--
