@@ -10,7 +10,7 @@
 <script src="js/jquery-ui.js"></script>
 <script type="text/javascript">
     history.navigationMode = 'compatible';
-    jQuery(document).ready(function($){
+    jQuery(window.document).ready(function($){
         var d = new Date();
         d = d.getTime();
         var aux = jQuery('#reloadValue').val();
