@@ -12,15 +12,17 @@
     jQuery(document).ready(function(){
         var d = new Date();
         d = d.getTime();
-        alert(jQuery('#reloadValue').val());
-        if (jQuery('#reloadValue').length == 0){
+        var aux = jQuery('#reloadValue').val();
+        if (aux.val() == undefined || aux.val().length == 0){
+            alert("aux 1.1");
             jQuery('#reloadValue').val(d);
             jQuery('body').show();
             
         }
         else{
+            alert("aux 1.2");
             jQuery('#reloadValue').val('');
-            location.reload();
+            window.location.reload(true);
         }
     });
 </script>
