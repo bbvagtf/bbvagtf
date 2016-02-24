@@ -360,7 +360,7 @@
                         <li class="home"><a style="color:#fff;width:8px;margin-left:10px;" href="https://sites.google.com/a/bbva.com/global-trade-finance/" target="_parent" onclick="mark"></a>
                         </li>
 
-                        <li class="top"><a id="¿Qué es GTF?" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/-gtf" target="_parent">¿Qué es GTF?</a>
+                        <li class="top"><a id="¿Qué es GT&IB?" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/-gtf" target="_parent">¿Qué es GT&IB?</a>
                         </li>
                         
                         <li class="top"><a id="Destacados" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/destacados" target="_parent"> Destacados </a>
@@ -397,9 +397,9 @@
         function datospagina()
         {
                 var parametros = gadgets.util.getUrlParameters()["parent"];     
-                if (parametros.indexOf("¿Qué es GTF?")!=-1)
+                if (parametros.indexOf("¿Qué es GT&IB?")!=-1)
                 {
-                        document.getElementById("¿Qué es GTF?").style.backgroundColor = "#2586D7";
+                        document.getElementById("¿Qué es GT&IB?").style.backgroundColor = "#2586D7";
                 }
                 if (parametros.indexOf("Market Intelligence")!=-1)
                 {
