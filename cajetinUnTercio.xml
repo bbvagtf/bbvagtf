@@ -27,7 +27,7 @@
 	<Content type="html" view="home"><![CDATA[
 		<style>		
 			#content_div img {
-				padding: 10 px 15px 10px 0;
+				padding: 0 15px 10px 0;
         text-align: right;
 			}
 			#content_div {
