@@ -49,7 +49,7 @@
 				color: #3F78B2;
 			}			
 			a.enlaceboton {
-				background-image: url("https://bbvagcs.googlecode.com/svn/trunk/fondobotonuntercio.png");
+				background-image: url("https://cloud.githubusercontent.com/assets/14868803/13402541/0b440cf4-df11-11e5-8b03-aa7d595b6015.png");
 				background-repeat: no-repeat;
 				color: #FFFFFF;
 				display: block;
