@@ -35,6 +35,7 @@
              text-align: justify;
 			}
 			#content_div a img {
+			        margin: 7px;
 				padding: 0;
         text-align: justify;    
 			}
