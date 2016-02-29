@@ -43,7 +43,7 @@
 			}
 			h2.titulobloque {
 				font-size: 16px;
-				margin: 0 0 70px 0;
+				margin: 0 50px 7px 0;
 				color: #3F78B2;
 			}			
 			a.enlaceboton {
