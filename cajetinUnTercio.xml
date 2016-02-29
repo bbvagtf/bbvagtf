@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-	<ModulePrefs title="Cajetin personalizado un tercio portal Global Trade Finance"
+	<ModulePrefs title="Cajetín site Global Trade & International Banking"
 		title_url=""
 		author=""
 		author_email=""
-		description="GadGet para Google Sites que muestra textos en una caja con formato."
+		description="Caja con formato"
 		screenshot=""
 		thumbnail=""  
 		scrolling="false"
@@ -13,7 +13,7 @@
 		<Require feature="dynamic-height"/>
 		<Require feature="setprefs"/>
 	</ModulePrefs>  
-	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Trade Finance"/>
+	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Trade & International Banking"/>
 	<UserPref name="VarImagenDestacada" display_name="Imagen destacada:" default_value=""/>
 	<UserPref name="VarBoton1Texto" display_name="Texto boton 1:" default_value=""/>
 	<UserPref name="VarBoton1URL" display_name="URL boton 1:" default_value=""/>
@@ -32,7 +32,7 @@
         text-align: right;
 			}
 			#content_div {
-				background-image: url('https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png');
+				background-image: url('https://cloud.githubusercontent.com/assets/14868803/13403073/85baa1b2-df13-11e5-807d-33b555244f58.png');
              text-align: justify;
 			}
 			#content_div a img {
@@ -75,7 +75,7 @@
 			
 		</style>
 	
-		<div id="content_div"  style="height:150px; widht:50px;text-align:justify;background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
+		<div id="content_div"  style="height:150px; widht:50px;text-align:justify;background-image:url(https://cloud.githubusercontent.com/assets/14868803/13403073/85baa1b2-df13-11e5-807d-33b555244f58.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
 
 		<script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js"></script>
 
@@ -167,7 +167,7 @@
 				width: 575px;
 			}
 			.btnTexto {
-				width: 200px;
+				width: 1000px;
             text-align: justify;
 			}
 			.btnURL {
