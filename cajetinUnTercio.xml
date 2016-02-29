@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-	<ModulePrefs title="Cajetín site Global Trade & International Banking"
+	<ModulePrefs title="Cajetín site Global Trade and International Banking"
 		title_url=""
 		author=""
 		author_email=""
@@ -13,7 +13,7 @@
 		<Require feature="dynamic-height"/>
 		<Require feature="setprefs"/>
 	</ModulePrefs>  
-	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Trade & International Banking"/>
+	<UserPref name="VarTituloBloque" display_name="TÃ­tulo:" default_value="Global Trade and International Banking"/>
 	<UserPref name="VarImagenDestacada" display_name="Imagen destacada:" default_value=""/>
 	<UserPref name="VarBoton1Texto" display_name="Texto boton 1:" default_value=""/>
 	<UserPref name="VarBoton1URL" display_name="URL boton 1:" default_value=""/>
