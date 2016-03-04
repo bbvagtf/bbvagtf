@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="menuGTF" >
+<ModulePrefs title="menuGT&IB" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs> 
@@ -377,7 +377,7 @@
 
                         <li class="top"><a id="e-Trade" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/eTrade" target="_parent"> e-Trade </a>
                         </li>
-                        <li class="top"><a id="GTF Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/gtf-workspace" target="_parent">GTF Workspace</a>
+                        <li class="top"><a id="GT&IB Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/gtf-workspace" target="_parent">GT&IB Workspace</a>
                         </li>
 
                         <!--
@@ -421,7 +421,7 @@
                 {
                         document.getElementById("Otros temas").style.backgroundColor = "#2586d7";
                 }
-                if (parametros.indexOf("GTF Workspace")!=-1)
+                if (parametros.indexOf("GT&IB Workspace")!=-1)
                 {
                         document.getElementById("GTF Workspace").style.backgroundColor = "#2586d7";
                 }
