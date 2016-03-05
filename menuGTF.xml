@@ -333,9 +333,10 @@
                                                 }
                                                 else
                                                 {
-                                                  
+                                                  if(parametros[j] != "")
+                                                    {
                                                      s = s + " >"
-                                                  
+                                                    }
                                                 }  
                                         }
                                         else
