@@ -323,6 +323,7 @@
                                                 }
                                         }
                                         if (j<parametros.length-1)
+                                        alert(parametros[j]);
                                         {
                                                 if(parametros[j] != "?pli=1")
                                                 {
