@@ -282,15 +282,15 @@
                 var base = "";
                 var barra = "/";
                 var parametros = gadgets.util.getUrlParameters()["parent"].split("/");
-                alert(parametros.length);
+                /*alert(parametros.length);*/
                 if (!Boolean(parametros[parametros.length-1])){
-                    alert(parametros.join('\n'));
+                    /*alert(parametros.join('\n'));*/
                     if (parametros[parametros.length-2] != rootSite){
                        parametros.pop();
                     }
-                    alert(parametros.join('\n'));
+                    /*alert(parametros.join('\n'));*/
                 }
-                alert(parametros.length);
+                /*alert(parametros.length);*/
                 var indexroot = indice(parametros, rootSite);   
                
                 for (i=0;i<parametros.length;i++)
