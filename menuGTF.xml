@@ -283,7 +283,7 @@
                 var barra = "/";
                 var parametros = gadgets.util.getUrlParameters()["parent"].split("/");
                 var indexroot = indice(parametros, rootSite);   
-                
+                parametros = parametros.filter(Boolean);
                 for (i=0;i<parametros.length;i++)
                 {                               
                         if(i<indexroot)
@@ -322,7 +322,7 @@
                                                         var litEnlace = aux;  
                                                 }
                                         }
-                                        if (j<parametros.length-1) || (parametros[j+1] != undefined)
+                                        if (j<parametros.length-1)
                                         
                                         {
                                                 if(parametros[j] != "?pli=1")
@@ -345,7 +345,13 @@
                                              {
                                                 s = s + " ><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
                                              }
-                                                 
+                                             else
+                                             {
+                                                  
+                                                     s = s + " >"
+                                                  
+                                                }
+    
                                         }
                                 }
                         }
