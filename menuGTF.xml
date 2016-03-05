@@ -284,9 +284,9 @@
                 var parametros = gadgets.util.getUrlParameters()["parent"].split("/");
                 alert('gtf');
                 if (!Boolean(parametros[parametros.length-1])){
-                    alert(parametros[parametros.length-1]);
+                    alert(parametros.join('\n'));
                     parametros.splice(parametros[parametros.length-1],1);
-                    alert(parametros[parametros.length-1]);
+                    alert(parametros.join('\n'));
                 }
                 var indexroot = indice(parametros, rootSite);   
                
