@@ -298,7 +298,7 @@
                                 for(j=i+1;j<parametros.length;++j)
                                 {   
                                         var aux = parametros[j].replace(/-/g," ");                                              
-                                        
+                                        alert(aux);
                                         if (aux.indexOf("?")>1)
                                         {
                                                 var auxMov = aux.split("?");
