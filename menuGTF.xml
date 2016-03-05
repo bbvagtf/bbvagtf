@@ -282,12 +282,13 @@
                 var base = "";
                 var barra = "/";
                 var parametros = gadgets.util.getUrlParameters()["parent"].split("/");
-                alert(parametros.length-1);
+                alert(parametros.length);
                 if (!Boolean(parametros[parametros.length-1])){
                     alert(parametros.join('\n'));
-                    parametros.splice(parametros[parametros.length-1],1);
+                    parametros.pop();
                     alert(parametros.join('\n'));
                 }
+                alert(parametros.length);
                 var indexroot = indice(parametros, rootSite);   
                
                 for (i=0;i<parametros.length;i++)
