@@ -285,7 +285,7 @@
                 alert(parametros.length);
                 if (!Boolean(parametros[parametros.length-1])){
                     alert(parametros.join('\n'));
-                    if (parametros[parametros.length-2] != rootSite)){
+                    if (parametros[parametros.length-2] != rootSite){
                        parametros.pop();
                     }
                     alert(parametros.join('\n'));
