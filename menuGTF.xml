@@ -36,7 +36,7 @@
 </Content>
 -->
 <Content type="html"><![CDATA[
-<script type="text/javascript">alert(gadgets.util.getUrlParameters())</script>
+<script type="text/javascript">alert(window.location)</script>
 <script src="https://bbvagcs.googlecode.com/svn/trunk/js/jquery-1.js" type="text/javascript"></script>
 <style type="text/css">
         /*
