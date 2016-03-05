@@ -323,7 +323,7 @@
                                                 }
                                         }
                                         if (j<parametros.length-1)
-                                        alert(parametros[j]);
+                                        
                                         {
                                                 if(parametros[j] != "?pli=1")
                                                 {
@@ -333,14 +333,9 @@
                                                 }
                                                 else
                                                 {
-                                                  if(parametros[j][parametros[j].lenght-1] != "/"){
-                                                     s = s + "<a class=\'linkBreadCrumb\' href=\'"+ base  + rootSite + barra  + parametros[j] + barra + "\' target=\'_parent\' title=\'" + litEnlace + "\'> >&nbsp;" + litEnlace + "</a>";
-                                                     rootSite = rootSite + "/" + parametros[j];
-                                                  }
-                                                  else
-                                                  {
+                                                  
                                                      s = s + " >"
-                                                  }
+                                                  
                                                 }  
                                         }
                                         else
@@ -349,16 +344,7 @@
                                              {
                                                 s = s + " ><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
                                              }
-                                             else
-                                             {
-                                                  if(parametros[j][parametros[j].lenght-1] != "/"){
-                                                     s = s + " ><span class=\'currentBreadCrumb\' + parametros[j] + barra + \' >&nbsp;" + litEnlace + "</span>";
-                                                  }
-                                                  else
-                                                  {
-                                                     s = s + " >"
-                                                  }
-                                                }    
+                                                 
                                         }
                                 }
                         }
