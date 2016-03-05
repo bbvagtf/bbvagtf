@@ -322,7 +322,7 @@
                                                         var litEnlace = aux;  
                                                 }
                                         }
-                                        if (j<parametros.length-1) || (parametros[j+1] !="")
+                                        if (j<parametros.length-1) || (parametros[j+1] != undefined)
                                         
                                         {
                                                 if(parametros[j] != "?pli=1")
