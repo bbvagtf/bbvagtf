@@ -26,8 +26,8 @@
 	<UserPref name="VarSize" display_name="TamaÃ±o de texto por defecto" default_value="12"/>
 	<Content type="html" view="home"><![CDATA[
 	 <head>
-                       <meta http-equiv="Pragma" content="no-cache">    
-</head>                  
+                       <base target="_top">    
+         </head>                  
 	
 		<style>		
 			#content_div img {
