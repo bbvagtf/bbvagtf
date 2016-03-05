@@ -282,7 +282,7 @@
                 var base = "";
                 var barra = "/";
                 var parametros = gadgets.util.getUrlParameters()["parent"].split("/");
-                alert('gtf');
+                alert(parametros.length-1);
                 if (!Boolean(parametros[parametros.length-1])){
                     alert(parametros.join('\n'));
                     parametros.splice(parametros[parametros.length-1],1);
