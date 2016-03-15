@@ -373,31 +373,31 @@
         
         <div id="menu">
                 <ul id="dropline">
-                        <li class="home"><a style="color:#fff;width:8px;margin-left:10px;" href="https://sites.google.com/a/bbva.com/global-trade-finance/" target="_parent" onclick="mark"></a>
+                        <li class="home"><a style="color:#fff;width:8px;margin-left:10px;" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/" target="_parent" onclick="mark"></a>
                         </li>
 
-                        <li class="top"><a id="¿Qué es GT&IB?" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/gtib" target="_parent">¿Qué es GT&IB?</a>
+                        <li class="top"><a id="¿Qué es GT&IB?" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/gtib" target="_parent">¿Qué es GT&IB?</a>
                         </li>
                         
-                        <li class="top"><a id="Destacados" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/destacados" target="_parent"> Destacados </a>
+                        <li class="top"><a id="Destacados" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/destacados" target="_parent"> Destacados </a>
                         </li>
 
-                        <li class="top"><a id="Market Intelligence" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/market-intelligence" target="_parent">Market Intelligence</a>
+                        <li class="top"><a id="Market Intelligence" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/market-intelligence" target="_parent">Market Intelligence</a>
                         </li>
 
-                        <li class="top"><a id="Commercial Support" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/commercial-support" target="_parent">Commercial Support</a>
+                        <li class="top"><a id="Commercial Support" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/commercial-support" target="_parent">Commercial Support</a>
                         </li>
          
-                        <li class="top"><a id="Comunidad de Práctica" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/comunidad-de-practica" target="_parent">Comunidad de Práctica</a>
+                        <li class="top"><a id="Comunidad de Práctica" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/comunidad-de-practica" target="_parent">Comunidad de Práctica</a>
                         </li>
 
-                        <li class="top"><a id="e-Trade" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/eTrade" target="_parent"> e-Trade </a>
+                        <li class="top"><a id="e-Trade" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/eTrade" target="_parent"> e-Trade </a>
                         </li>
-                        <li class="top"><a id="GT&IB Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance/gtib-workspace" target="_parent"><img src="https://cloud.githubusercontent.com/assets/14868803/13572783/64e9196e-e47c-11e5-9857-62117f6f86c1.png" width="10px" height="10px"style="vertical-align: auto;display:inline"/>&nbsp;&nbsp;GT&IB Workspace</a>
+                        <li class="top"><a id="GT&IB Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/gtib-workspace" target="_parent"><img src="https://cloud.githubusercontent.com/assets/14868803/13572783/64e9196e-e47c-11e5-9857-62117f6f86c1.png" width="10px" height="10px"style="vertical-align: auto;display:inline"/>&nbsp;&nbsp;GT&IB Workspace</a>
                         </li>
 
                         <!--
-                        <li class="top"><a id="PM Team Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-finance-site/Project-Management-Team" target="_parent">PM Team Workspace</a>
+                        <li class="top"><a id="PM Team Workspace" class="principal" href="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/Project-Management-Team" target="_parent">PM Team Workspace</a>
                         </li>
                         -->
 
