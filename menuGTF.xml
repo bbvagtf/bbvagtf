@@ -193,7 +193,7 @@
                 text-transform: capitalize;             
         }               
 </style>
-<script src="https://raw.githubusercontent.com/bbvagtf/bbvagtf/master/jquery-1.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript">
         history.navigationMode = 'compatible'; 
         $(document).ready(function()
