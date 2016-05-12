@@ -206,6 +206,7 @@
 
 <script type="text/javascript">
         history.navigationMode = 'compatible'; 
+        jQuery.noConflict();
         $(document).ready(function()
         {
                 $("#dropline li.current").children("ul").css("left", "0px").show();
