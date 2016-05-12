@@ -193,7 +193,7 @@
                 text-transform: capitalize;             
         }               
 </style>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://sites.google.com/a/bbva.com/global-trade-and-international-banking/home/gadgets/jquery/jquery-1.js"></script>
 <script type="text/javascript">
         history.navigationMode = 'compatible'; 
         $(document).ready(function()
