@@ -36,7 +36,9 @@
 </Content>
 -->
 <Content type="html"><![CDATA[
+<head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
 <style type="text/css">
         /*
         This copyright notice must be kept untouched in the stylesheet at all times.
