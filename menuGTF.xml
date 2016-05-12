@@ -203,7 +203,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 
-jQuery.noConflict();
+
 <script type="text/javascript">
         history.navigationMode = 'compatible'; 
         
