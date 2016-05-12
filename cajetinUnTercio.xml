@@ -80,7 +80,7 @@
 		</style>
 	
 		<div id="content_div"  style="height:150px; widht:50px;text-align:justify;background-image:url(https://cloud.githubusercontent.com/assets/14868803/13403073/85baa1b2-df13-11e5-807d-33b555244f58.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
-		<script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js?n=1"></script>
+		<script type="text/javascript" src="https://raw.githubusercontent.com/bbvagtf/bbvagtf/master/bbcode_html.js?n=1"></script>
 		<script type="text/javascript">
 			var html="";
 			// Obtener userprefs
