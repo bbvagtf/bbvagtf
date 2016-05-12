@@ -391,7 +391,7 @@
                 </ul>
         </div>
         <!-- breadcrumbs-->
-        <div id="title-crumbs">breadcrumbs</div>
+        <div id="title-crumbs"></div>
         <!-- Elemento de menú set visited -->
         <script type="text/javascript">
         gadgets.util.registerOnLoadHandler(datospagina);
